@@ -1,5 +1,5 @@
 # Image-Editor
-THe sipliest image editor, where you can:
+The sipliest image editor,created without any libraries, where you can:
 - upload a photo
 - select line width
 - select line color

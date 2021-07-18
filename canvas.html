@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Editor</title>
+  <link rel="stylesheet" href="canvas.css" />
+</head>
+
+<body>
+  <div id="topbar">
+    <div id="rad">
+      Select Line Width <span id="radval">10</span>
+      <div id="decrad" class="radcontrol" data-value="dec">+</div>
+      <div id="incrad" class="radcontrol" data-value="inc">-</div>
+    </div>
+    <div id="colors"></div>
+    <div class="actions">
+      <div id="save" data-value="save">Save</div>
+      <div id="clearbtn" data-value="clear">Clear</div>
+    </div>
+  </div>
+  <canvas id="canvas" width="300" height="200"></canvas>
+  <label for="uploader">Select file:</label>
+  <input type="file" id="uploader" />
+  <script src="canvas.js"></script>
+</body>
+
+</html>
